@@ -1,0 +1,180 @@
+
+
+#aud {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
+}
+
+#main {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#one {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+#two {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+#third {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+#four {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+#five {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+.oneFire {
+    position: absolute;
+    top: 60%;
+    padding: 50px 50px;
+    left: 49%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    display: block;
+
+}
+
+.secondFire {
+    position: absolute;
+    top: 60%;
+    padding: 50px 50px;
+    left: 49%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    display: none;
+}
+
+.thirdFire {
+    position: absolute;
+    top: 60%;
+    padding: 50px 50px;
+    left: 49%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: none;
+}
+
+.fourFire {
+    position: absolute;
+    top: 60%;
+    padding: 50px 50px;
+    left: 51%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: none;
+}
+
+.fiveFire {
+    position: absolute;
+    top: 49%;
+    padding: 50px 50px;
+    left: 51%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#MuteButton::before {
+    content: '🔇';
+}
+
+#MuteButton.muted::before {
+    content: '🔈';
+}
+
+#MuteButton {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    color: #fff;
+    z-index: 5;
+    font-size: 2rem;
+    border-radius: 2rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+}
